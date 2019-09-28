@@ -531,7 +531,7 @@ spec:
     spec:
       containers:
       - name: payment
-        image: eshop/payment.api
+        image: sreedocker123/eshoppaymentapi:latest
         imagePullPolicy: Always
         env:
         - name: PATH_BASE
@@ -573,7 +573,7 @@ spec:
     spec:
       containers:
       - name: webmvc
-        image: eshop/webmvc
+        image: sreedocker123/eshopwebmvc:latest
         imagePullPolicy: Always
         env:
         - name: PATH_BASE
@@ -677,7 +677,7 @@ spec:
     spec:
       containers:
       - name: webstatus
-        image: eshop/webstatus
+        image: sreedocker123/webstatus:latest
         imagePullPolicy: Always
         env:
         - name: PATH_BASE
@@ -758,7 +758,7 @@ spec:
     spec:
       containers:
       - name: webspa
-        image: eshop/webspa
+        image: sreedocker123/webspa:latest
         imagePullPolicy: Always
         env:
         - name: ASPNETCORE_URLS
@@ -852,7 +852,7 @@ spec:
     spec:
       containers:
       - name: webshoppingagg
-        image: eshop/webshoppingagg
+        image: sreedocker123/webshoppingagg:latest
         imagePullPolicy: Always
         env:
         - name: ASPNETCORE_URLS
@@ -896,7 +896,7 @@ spec:
     spec:
       containers:
       - name: mobileshoppingagg
-        image: eshop/mobileshoppingagg
+        image: sreedocker123/mobileshoppingagg:latest
         imagePullPolicy: Always
         env:
         - name: ASPNETCORE_URLS
